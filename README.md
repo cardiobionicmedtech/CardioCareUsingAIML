@@ -16,10 +16,9 @@ This repository presents a comprehensive investigation into predicting heart dis
     *   [Deep Learning Model with SMOTE](#deep-learning-model-with-smote)
 4.  [Key Findings and Results](#key-findings-and-results)
 5.  [Technologies Utilized](#technologies-utilized)
-6.  [Setup and Usage](#setup-and-usage)
-7.  [Future Work](#future-work)
-8.  [Contributing](#contributing)
-9.  [License](#license)
+6.  [Future Work](#future-work)
+7.  [Contributing](#contributing)
+8.  [License](#license)
 
 ## Project Objectives
 
@@ -89,35 +88,6 @@ A comprehensive EDA was performed to understand feature distributions, identify 
 *   **Deep Learning:** TensorFlow, Keras
 *   **Imbalance Handling:** Imbalanced-learn (SMOTE)
 
-## Setup and Usage
-
-### Prerequisites
-*   Python 3.8+
-*   pip (Python package installer)
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [URL_OF_YOUR_REPOSITORY]
-    cd heart-disease-prediction-repo
-    ```
-
-2.  **Create and activate a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
-
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(Note: You will need to create a `requirements.txt` file. You can generate one from your environment using `pip freeze > requirements.txt` after installing all necessary packages locally.)*
-    Alternatively, install packages individually:
-    ```bash
-    pip install pandas numpy matplotlib seaborn plotly scikit-learn xgboost tensorflow imbalanced-learn jupyter
-    ```
 
 4.  **Dataset:**
     The notebooks expect the dataset `heart_disease_uci.csv` to be located in a directory like `/kaggle/input/heart-disease-data/`. Please download the dataset from an appropriate source (e.g., UCI Machine Learning Repository) and adjust the file paths within the notebooks if necessary.
@@ -135,6 +105,7 @@ Ensemble Modeling: Investigate stacking or blending of diverse models to potenti
 Model Interpretability: Employ SHAP or LIME to gain deeper insights into model decision-making processes.
 Deployment Strategy: Outline a potential pathway for deploying the most effective model as a predictive service.
 Cross-Dataset Validation: Evaluate model generalization on other heart disease datasets.
+
 Contributing
 We welcome contributions to this project. If you'd like to contribute, please follow these steps:
 Fork the repository.
@@ -142,22 +113,9 @@ Create a new branch (git checkout -b feature/your-feature-name).
 Make your changes and commit them (git commit -m 'Add some feature').
 Push to the branch (git push origin feature/your-feature-name).
 Open a Pull Request.
+
 Please ensure your code adheres to good practices and includes relevant documentation or tests where applicable.
+   
 License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-Copyright (c) [Year] [Your Name/Organization Name]
-**Key features of this "Professional" README:**
-
-*   **Clear Structure:** Uses a Table of Contents and well-defined sections.
-*   **Concise Overview:** Quickly explains the project's purpose and main approaches.
-*   **Methodology Detail:** Briefly outlines the key steps in each phase (EDA, classical ML, DL).
-*   **Highlights Key Findings:** Summarizes the most important outcomes.
-*   **Reproducibility Focus:** Provides clear setup and usage instructions, including dependency management (suggesting a `requirements.txt`).
-*   **Forward-Looking:** Outlines potential future enhancements.
-*   **Standard Sections:** Includes "Contributing" and "License" sections, common in open-source projects.
-
-Remember to:
-
-1.  Replace `[URL_OF_YOUR_REPOSITORY]` and `[Year] [Your Name/Organization Name]`.
-2.  Create the `LICENSE.md` file (e.g., with the MIT license text).
-3.  Generate and include a `requirements.txt` file in your repository's root for easy dependency installation by others. You can create it by running `pip freeze > requirements.txt` in your project's activated virtual environment after you've installed all the packages used by your notebooks.
+This project is licensed under the MIT License.
+Copyright (c) 2025 Thilak - SAIMA Labs
