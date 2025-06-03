@@ -92,30 +92,29 @@ A comprehensive EDA was performed to understand feature distributions, identify 
 4.  **Dataset:**
     The notebooks expect the dataset `heart_disease_uci.csv` to be located in a directory like `/kaggle/input/heart-disease-data/`. Please download the dataset from an appropriate source (e.g., UCI Machine Learning Repository) and adjust the file paths within the notebooks if necessary.
 
-### Running the Notebooks
-Navigate to the respective subdirectories (`01-Heart-Disease-EDA-Classical-ML` or `02-Heart-Disease-Deep-Learning-SMOTE`) and launch Jupyter Notebook:
-```bash
-jupyter notebook
 
-Open and execute the cells in the .ipynb files.
-Future Work
-Advanced Feature Engineering: Explore interaction terms and domain-specific feature creation.
-Hyperparameter Optimization: Conduct systematic tuning for both classical and deep learning models using tools like Optuna or KerasTuner.
-Ensemble Modeling: Investigate stacking or blending of diverse models to potentially enhance predictive power.
-Model Interpretability: Employ SHAP or LIME to gain deeper insights into model decision-making processes.
-Deployment Strategy: Outline a potential pathway for deploying the most effective model as a predictive service.
-Cross-Dataset Validation: Evaluate model generalization on other heart disease datasets.
 
-Contributing
+## Future Work
+
+* Advanced Feature Engineering: Explore interaction terms and domain-specific feature creation.
+* Hyperparameter Optimization: Conduct systematic tuning for both classical and deep learning models using tools like Optuna or KerasTuner.
+* Ensemble Modeling: Investigate stacking or blending of diverse models to potentially enhance predictive power.
+* Model Interpretability: Employ SHAP or LIME to gain deeper insights into model decision-making processes.
+* Deployment Strategy: Outline a potential pathway for deploying the most effective model as a predictive service.
+* Cross-Dataset Validation: Evaluate model generalization on other heart disease datasets.
+
+## Contributing
+
 We welcome contributions to this project. If you'd like to contribute, please follow these steps:
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature-name).
-Make your changes and commit them (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/your-feature-name).
-Open a Pull Request.
+ * Fork the repository.
+ * Create a new branch (git checkout -b feature/your-feature-name).
+ * Make your changes and commit them (git commit -m 'Add some feature').
+ * Push to the branch (git push origin feature/your-feature-name).
+ * Open a Pull Request.
 
-Please ensure your code adheres to good practices and includes relevant documentation or tests where applicable.
+### Please ensure your code adheres to good practices and includes relevant documentation or tests where applicable.
    
-License
+## License
+```bash
 This project is licensed under the MIT License.
 Copyright (c) 2025 Thilak - SAIMA Labs
