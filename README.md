@@ -32,7 +32,7 @@ This repository presents a comprehensive investigation into predicting heart dis
 ## Repository Structure
 
 The project is organized as follows:
-
+```
 ├── 01-Heart-Disease-EDA-Classical-ML/
 │ ├── heart_disease_eda_classical_models.ipynb # EDA and classical ML model implementation
 │ └── README.md # Detailed information for this section
@@ -42,7 +42,7 @@ The project is organized as follows:
 ├── .gitignore # Git ignore file
 ├── LICENSE.md # Project license
 └── README.md # This main repository README
-
+```
 
 ## Methodology
 
